@@ -1,21 +1,31 @@
 # Server Performance Stats Script
 
-This project contains a Bash script to analyze Linux server performance.
+This project is a solution to the following challenge:
 
-## Features
+https://roadmap.sh/projects/server-stats
+
+## 📌 Project Goal
+
+Create a Bash script (`server-stats.sh`) that analyzes basic server performance statistics on any Linux server.
+
+The script provides:
 
 - Total CPU usage
-- Memory usage (Free vs Used with percentage)
-- Disk usage
-- Top 5 processes by CPU
-- Top 5 processes by Memory
+- Total memory usage (Free vs Used including percentage)
+- Total disk usage (Free vs Used including percentage)
+- Top 5 processes by CPU usage
+- Top 5 processes by memory usage
+
+## 🚀 Stretch Features Added
+
 - OS version
-- Uptime
+- System uptime
 - Load average
 - Logged-in users
 
-## Usage
+## 🛠 Technologies Used
 
-```bash
-chmod +x server-stats.sh
-./server-stats.sh
+- Bash scripting
+- Linux system commands (`top`, `free`, `df`, `ps`, `awk`, `grep`)
+
+## 📂 Project Structure
